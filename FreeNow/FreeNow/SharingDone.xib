@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5kc-9Q-lp6">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="137"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message shared successfully!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIl-Ce-RjR">
+                    <rect key="frame" x="39" y="10" width="250" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="1Zv-Z0-TCy"/>
+                        <constraint firstAttribute="height" constant="40" id="cTF-ce-fPh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="114" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9P-MX-twi">
+                    <rect key="frame" x="140" y="70" width="46" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="X9P-MX-twi" secondAttribute="height" multiplier="23:15" id="fo9-Z1-jeO"/>
+                        <constraint firstAttribute="height" constant="30" id="t91-5R-srU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pIl-Ce-RjR" firstAttribute="top" secondItem="5kc-9Q-lp6" secondAttribute="top" constant="10" id="LvC-CE-vgr"/>
+                <constraint firstItem="X9P-MX-twi" firstAttribute="top" secondItem="pIl-Ce-RjR" secondAttribute="bottom" constant="20" id="PlN-S9-eJH"/>
+                <constraint firstItem="pIl-Ce-RjR" firstAttribute="centerX" secondItem="5kc-9Q-lp6" secondAttribute="centerX" id="T67-Sr-3fg"/>
+                <constraint firstItem="X9P-MX-twi" firstAttribute="centerX" secondItem="5kc-9Q-lp6" secondAttribute="centerX" id="lCQ-hI-o0P"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="687.5" y="245.5"/>
+        </view>
+    </objects>
+</document>

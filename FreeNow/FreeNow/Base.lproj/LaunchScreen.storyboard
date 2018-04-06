@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mark" translatesAutoresizingMaskIntoConstraints="NO" id="J1O-Ih-QLZ">
+                                <rect key="frame" x="76" y="100" width="168" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="HVU-ot-wqA"/>
+                                    <constraint firstAttribute="width" secondItem="J1O-Ih-QLZ" secondAttribute="height" multiplier="191:170" id="pmI-bI-wAC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FreeNow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuJ-NB-5yA">
+                                <rect key="frame" x="100" y="270" width="121" height="52"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="32"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.82745098039215681" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Know what your friends are up to " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yca-2I-Ipw">
+                                <rect key="frame" x="33" y="362" width="255" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="km9-mB-qco"/>
+                                    <constraint firstAttribute="width" constant="255" id="qLy-qf-ZMD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now get out and play!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcZ-37-ubS">
+                                <rect key="frame" x="78" y="392" width="165" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="9XC-cQ-8Pi"/>
+                                    <constraint firstAttribute="height" constant="20" id="euw-eV-Ear"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J1O-Ih-QLZ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="0fF-gZ-MyO"/>
+                            <constraint firstItem="PuJ-NB-5yA" firstAttribute="top" secondItem="J1O-Ih-QLZ" secondAttribute="bottom" constant="20" id="7e7-iE-B2L"/>
+                            <constraint firstItem="yca-2I-Ipw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AcZ-1r-223"/>
+                            <constraint firstItem="OcZ-37-ubS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="O8a-lj-MBB"/>
+                            <constraint firstItem="PuJ-NB-5yA" firstAttribute="centerX" secondItem="J1O-Ih-QLZ" secondAttribute="centerX" id="RwC-Bs-Coo"/>
+                            <constraint firstItem="J1O-Ih-QLZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pGU-7j-aR6"/>
+                            <constraint firstItem="OcZ-37-ubS" firstAttribute="top" secondItem="yca-2I-Ipw" secondAttribute="bottom" constant="10" id="qIb-8p-8Sw"/>
+                            <constraint firstItem="yca-2I-Ipw" firstAttribute="top" secondItem="PuJ-NB-5yA" secondAttribute="bottom" constant="40" id="sQb-4E-iG5"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mark" width="75" height="59"/>
+    </resources>
+</document>

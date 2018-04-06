@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="SimpleTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="RJ0-wj-PDk">
+                        <rect key="frame" x="20" y="15" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="UrK-3d-FYb"/>
+                            <constraint firstAttribute="width" constant="80" id="eNe-Xz-vxB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJe-rZ-H0E">
+                        <rect key="frame" x="255" y="44" width="45" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RJ0-wj-PDk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Bpc-RG-8wj"/>
+                    <constraint firstItem="SJe-rZ-H0E" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Bqq-3F-aYW"/>
+                    <constraint firstItem="RJ0-wj-PDk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jhF-Cz-N5K"/>
+                    <constraint firstAttribute="trailing" secondItem="SJe-rZ-H0E" secondAttribute="trailing" constant="20" id="rOe-l0-IgH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="img_apple" destination="RJ0-wj-PDk" id="m1C-2l-nbk"/>
+                <outlet property="lbl_apple" destination="SJe-rZ-H0E" id="sCq-X9-FVg"/>
+            </connections>
+            <point key="canvasLocation" x="432" y="341"/>
+        </tableViewCell>
+        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="khH-lj-s4N">
+            <rect key="frame" x="0.0" y="0.0" width="54" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="199" y="232.5"/>
+        </imageView>
+    </objects>
+    <resources>
+        <image name="apple" width="266" height="189"/>
+    </resources>
+</document>
